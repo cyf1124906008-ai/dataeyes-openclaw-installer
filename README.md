@@ -13,6 +13,7 @@ DataEyes 的 OpenClaw 一键安装仓库。
 - 如果当前环境没有全局安装权限，会自动回退到 `~/.npm-global`
 - `curl | bash` 安装优先直接下载 GitHub 压缩包，不强依赖本机预装 `git`
 - OpenClaw 模型列表默认只显示 DataEyes 模型，不再混入其他 provider
+- 聊天页模型下拉框会限制为 DataEyes 这 3 个模型，不再出现一大串内置 Bedrock 模型
 - 自动检测或安装 Node.js 22
 - 自动写入 DataEyes 配置
 - 自动启动 OpenClaw Gateway

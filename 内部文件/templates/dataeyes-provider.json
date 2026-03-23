@@ -40,6 +40,11 @@
           "dataeyes/claude-opus-4-6",
           "dataeyes/gemini-3.1-pro-preview-customtools"
         ]
+      },
+      "models": {
+        "dataeyes/gpt-5.4": {},
+        "dataeyes/claude-opus-4-6": {},
+        "dataeyes/gemini-3.1-pro-preview-customtools": {}
       }
     }
   }

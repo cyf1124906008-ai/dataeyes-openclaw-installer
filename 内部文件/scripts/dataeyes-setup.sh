@@ -31,7 +31,9 @@ with open(tpl_path,'r',encoding='utf-8') as f:
 cfg['models']=tpl['models']
 dataeyes=cfg['models']['providers']['dataeyes']
 dataeyes['apiKey']=api_key
-cfg.setdefault('agents', {}).setdefault('defaults', {})['model']=tpl['agents']['defaults']['model']
+defaults = cfg.setdefault('agents', {}).setdefault('defaults', {})
+defaults['model']=tpl['agents']['defaults']['model']
+defaults['models']=tpl['agents']['defaults']['models']
 cfg.setdefault('gateway', {})['mode']='local'
 with open(cfg_path,'w',encoding='utf-8') as f:
     json.dump(cfg,f,ensure_ascii=False,indent=2)
