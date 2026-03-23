@@ -11,6 +11,7 @@ DataEyes 的 OpenClaw 一键安装仓库。
 
 - 优先直接执行 `npm install -g openclaw@latest`
 - 如果当前环境没有全局安装权限，会自动回退到 `~/.npm-global`
+- OpenClaw 模型列表默认只显示 DataEyes 模型，不再混入其他 provider
 - 自动检测或安装 Node.js 22
 - 自动写入 DataEyes 配置
 - 自动启动 OpenClaw Gateway

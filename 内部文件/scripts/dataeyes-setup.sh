@@ -28,14 +28,9 @@ else:
     cfg={}
 with open(tpl_path,'r',encoding='utf-8') as f:
     tpl=json.load(f)
-if 'models' not in cfg:
-    cfg['models']={}
-cfg['models']['mode']='merge'
-if 'providers' not in cfg['models']:
-    cfg['models']['providers']={}
-dataeyes=tpl['models']['providers']['dataeyes']
+cfg['models']=tpl['models']
+dataeyes=cfg['models']['providers']['dataeyes']
 dataeyes['apiKey']=api_key
-cfg['models']['providers']['dataeyes']=dataeyes
 cfg.setdefault('agents', {}).setdefault('defaults', {})['model']=tpl['agents']['defaults']['model']
 cfg.setdefault('gateway', {})['mode']='local'
 with open(cfg_path,'w',encoding='utf-8') as f:
