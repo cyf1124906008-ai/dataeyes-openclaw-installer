@@ -9,21 +9,21 @@
         "models": [
           {
             "id": "gpt-5.4",
-            "name": "GPT-5.4",
+            "name": "GPT-5.4 (Recommended)",
             "input": ["text", "image"],
             "contextWindow": 256000,
             "maxTokens": 8192
           },
           {
             "id": "claude-opus-4-6",
-            "name": "Claude Opus 4.6",
+            "name": "Claude Opus 4.6 (Quality)",
             "input": ["text", "image"],
             "contextWindow": 256000,
             "maxTokens": 8192
           },
           {
             "id": "gemini-3.1-pro-preview-customtools",
-            "name": "Gemini 3.1 Pro",
+            "name": "Gemini 3.1 Pro (Backup)",
             "input": ["text", "image"],
             "contextWindow": 256000,
             "maxTokens": 8192
@@ -37,8 +37,8 @@
       "model": {
         "primary": "dataeyes/gpt-5.4",
         "fallbacks": [
-          "dataeyes/gemini-3.1-pro-preview-customtools",
-          "dataeyes/claude-opus-4-6"
+          "dataeyes/claude-opus-4-6",
+          "dataeyes/gemini-3.1-pro-preview-customtools"
         ]
       }
     }

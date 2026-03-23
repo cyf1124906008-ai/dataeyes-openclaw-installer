@@ -48,8 +48,13 @@ bash install.sh
 
 默认模型：
 - 主模型：`dataeyes/gpt-5.4`
-- 自动回退：`dataeyes/gemini-3.1-pro-preview-customtools`
 - 自动回退：`dataeyes/claude-opus-4-6`
+- 自动回退：`dataeyes/gemini-3.1-pro-preview-customtools`
+
+模型显示策略：
+- `GPT-5.4 (Recommended)`：默认主模型，适合大多数场景
+- `Claude Opus 4.6 (Quality)`：偏高质量输出
+- `Gemini 3.1 Pro (Backup)`：作为备用回退模型
 
 OpenClaw 命令位置说明：
 - 如果当前机器允许直接全局安装，`openclaw` 会进入 npm 全局路径
