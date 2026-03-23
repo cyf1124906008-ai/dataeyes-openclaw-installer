@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO_URL="${DATAEYES_REPO_URL:-https://github.com/<your-org>/<your-repo>.git}"
+REPO_URL="${DATAEYES_REPO_URL:-https://github.com/cyf1124906008-ai/dataeyes-openclaw-installer.git}"
 BRANCH="${DATAEYES_BRANCH:-main}"
 
 RED='\033[0;31m'

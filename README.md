@@ -28,14 +28,14 @@ DataEyes 的 OpenClaw 一键安装仓库。
 推荐方式是让用户在终端执行：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<your-org>/<your-repo>/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/cyf1124906008-ai/dataeyes-openclaw-installer/main/install.sh | bash
 ```
 
 或者：
 
 ```bash
-git clone https://github.com/<your-org>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/cyf1124906008-ai/dataeyes-openclaw-installer.git
+cd dataeyes-openclaw-installer
 bash install.sh
 ```
 
@@ -47,8 +47,11 @@ bash install.sh
 如果你想在本地调试远程拉取逻辑，也可以这样执行：
 
 ```bash
-DATAEYES_REPO_URL="https://github.com/<your-org>/<your-repo>.git" bash install.sh
+DATAEYES_REPO_URL="https://github.com/cyf1124906008-ai/dataeyes-openclaw-installer.git" bash install.sh
 ```
+
+仓库地址：
+- `https://github.com/cyf1124906008-ai/dataeyes-openclaw-installer`
 
 ## 安装完成后
 
