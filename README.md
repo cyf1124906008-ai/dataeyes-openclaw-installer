@@ -26,7 +26,7 @@ DataEyes 的 OpenClaw 一键安装仓库。
 推荐直接在终端执行：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/cyf1124906008-ai/dataeyes-openclaw-installer/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/dataeyesai/dataeyes-mac-deploy/main/install.sh | bash
 ```
 
 这条命令会优先直接下载 GitHub 仓库压缩包；如果压缩包下载失败，才会回退到 `git clone`。
@@ -34,13 +34,13 @@ curl -fsSL https://raw.githubusercontent.com/cyf1124906008-ai/dataeyes-openclaw-
 或者先克隆仓库再执行：
 
 ```bash
-git clone https://github.com/cyf1124906008-ai/dataeyes-openclaw-installer.git
-cd dataeyes-openclaw-installer
+git clone https://github.com/dataeyesai/dataeyes-mac-deploy.git
+cd dataeyes-mac-deploy
 bash install.sh
 ```
 
 仓库地址：
-- `https://github.com/cyf1124906008-ai/dataeyes-openclaw-installer`
+- `https://github.com/dataeyesai/dataeyes-mac-deploy`
 
 ## 安装完成后
 
@@ -78,7 +78,7 @@ export PATH="$HOME/.npm-global/bin:$PATH"
 2. 执行下面这条命令：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/cyf1124906008-ai/dataeyes-openclaw-installer/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/dataeyesai/dataeyes-mac-deploy/main/install.sh | bash
 ```
 
 3. 按提示输入 DataEyes API Key。
